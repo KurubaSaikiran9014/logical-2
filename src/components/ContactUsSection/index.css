@@ -1,0 +1,62 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+}
+.contact-logo {
+  height: 70px;
+  width: 140px;
+  margin: 10px;
+}
+.contact-us-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #1e1e1e;
+}
+.contact-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px;
+}
+/* @media all and (max-width: 768px) {
+  .contact-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .contact-us-description {
+    font-size: 10px;
+  }
+} */
+.copyright {
+  color: #323f4b;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 10px;
+}
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-media-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  height: 20px;
+  margin: 10px;
+}
